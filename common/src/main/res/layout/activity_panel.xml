@@ -6,145 +6,270 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_PanelBase"
-    android:background="@color/backgroundblue">
+    android:background="@drawable/backgroundcardgame2">
 
-
-    <com.google.android.material.textview.MaterialTextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/title"
-        android:textStyle="bold"
-        android:textColor="@color/headlinecolor"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:textSize="40sp">
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
 
-    </com.google.android.material.textview.MaterialTextView>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/MAIN_MTV_headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textStyle="bold"
+            android:textColor="@color/headlinecolor"
+            android:textAlignment="center"
+            android:layout_marginTop="32dp"
+            android:textSize="40sp" />
 
+    </LinearLayout>
 
 
     <GridLayout
         android:id="@+id/MAIN_GRID_CARDS"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:rowCount="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:rowCount="5"
         android:columnCount="4"
-        android:layout_marginTop="110dp"
-        android:layout_marginStart="6dp">
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="8dp"
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
+      >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
             android:background="@drawable/backofcard"
             android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/backofcard"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"/>
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
 
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
 
-
-
-
-
-
-
-
-
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="73dp"
+            android:layout_height="93dp"
+            android:background="@drawable/backofcard"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImageView"/>
 
     </GridLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/MAIN_MTV_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="@color/white"
+
+            >
+
+        </com.google.android.material.textview.MaterialTextView>
+
+    </LinearLayout>
 
 
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:layout_centerHorizontal="true">
 
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/MAIN_MTV_timesPlayed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="26sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+    </LinearLayout>
 </RelativeLayout>
 
 

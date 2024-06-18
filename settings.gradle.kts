@@ -21,5 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "MemoryCardGame"
 include(":Animals")
+include(":app")
 include(":comics")
-include(":common")
+include(":common")1
