@@ -22,8 +22,4 @@
   <li><strong>Graphics:</strong> Custom-designed graphics tailored to each theme, enhancing the visual appeal and user experience.</li>
 </ul>
 
-<p><strong>Installation</strong></p>
-<p>Download the app from the Google Play Store or directly install the APK from the GitHub repository.</p>
 
-<p><strong>Contact Information</strong></p>
-<p>For support or feedback, please contact noambenbenjamin@gmail.com.</p>
