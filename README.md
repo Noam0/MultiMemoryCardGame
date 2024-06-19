@@ -1,18 +1,18 @@
-<h2>Memory Card Game: Animal & Comics Edition <img src="https://github.com/Noam0/Memory-Card-Game/assets/your_icon" alt="icon" width="50" height="50"></h2>
+<h2>Memory Card Game: Animal & Comics Editions <img src="https://github.com/Noam0/MultiMemoryCardGame/assets/your_icon" alt="icon" width="50" height="50"></h2>
 
 <p><strong>Overview</strong></p>
-<p>Memory Card Game is a fun and educational app designed to enhance memory skills through engaging themes of Animals and Comics. This multi-themed game challenges players to match pairs of cards under time constraints, making it perfect for players of all ages looking to improve their cognitive abilities.</p>
+<p>The Memory Card Game project consists of two separate applications, one themed around Animals and the other around Comics. Each app is designed to enhance memory skills by challenging players to find matching pairs of cards. This project was developed as part of an Android development course, demonstrating the use of a shared codebase to create distinct apps.</p>
 
 <p><strong>Screenshots:</strong></p>
-<img src="https://github.com/Noam0/Memory-Card-Game/assets/animal_theme_screenshot" alt="Animal Theme" width="215" height="430">
-<img src="https://github.com/Noam0/Memory-Card-Game/assets/comics_theme_screenshot" alt="Comics Theme" width="215" height="430">
+<img src="https://github.com/Noam0/MultiMemoryCardGame/assets/101128914/8ee2ed18-1e92-4591-b238-dc1eb7b2f95b" alt="Animal Theme" width="215" height="430">
+<img src="https://github.com/Noam0/MultiMemoryCardGame/assets/101128914/b11cc7b8-bbc8-4be8-a7d8-9e87ae7b0c2e" alt="Comics Theme" width="215" height="430">
+<img src="https://github.com/Noam0/MultiMemoryCardGame/assets/101128914/912e6679-97b4-40b2-b79b-79a3b42e3e6a" alt="Comics Theme" width="215" height="430">
 
 <p><strong>Game Features</strong></p>
 <ul>
-  <li><strong>Dual Themes:</strong> Switch between charming Animals and exciting Comics to keep the gameplay fresh and engaging.</li>
-  <li><strong>Adaptive Difficulty Levels:</strong> The game scales the difficulty based on the player's performance to provide a continuous challenge.</li>
-  <li><strong>Memory Enhancement:</strong> Designed to improve memory and attention to detail through repeated gameplay.</li>
-  <li><strong>High Score Tracking:</strong> Compete against yourself or others by aiming to top the high score leaderboard.</li>
+  <li><strong>Two Separate Apps:</strong> Each app operates independently with its own theme but shares a common codebase for core functionalities.</li>
+  <li><strong>Memory Enhancement:</strong> Each game is designed to improve memory and attention to detail through engaging and repeated gameplay.</li>
+  <li><strong>Time Tracking:</strong> Success in the game is measured by how quickly players can clear the board, encouraging faster play and strategy over time.</li>
 </ul>
 
 <p><strong>Technical Details</strong></p>
@@ -21,5 +21,3 @@
   <li><strong>Programming Languages:</strong> Java and XML were used for development, ensuring robust and maintainable code.</li>
   <li><strong>Graphics:</strong> Custom-designed graphics tailored to each theme, enhancing the visual appeal and user experience.</li>
 </ul>
-
-
