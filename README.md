@@ -3,6 +3,12 @@
 <p><strong>Overview</strong></p>
 <p>The Memory Card Game project consists of two separate applications, one themed around Animals and the other around Comics. Each app is designed to enhance memory skills by challenging players to find matching pairs of cards. This project was developed as part of an Android development course, demonstrating the use of a shared codebase to create distinct apps.</p>
 
+<p><strong>App Presentation Video:</strong>
+<a href="https://www.youtube.com/watch?v=TETSWUxY5ZE">Watch the App Presentation Video</a>
+</p>
+
+
+
 <p><strong>Screenshots:</strong></p>
 <img src="https://github.com/Noam0/MultiMemoryCardGame/assets/101128914/8ee2ed18-1e92-4591-b238-dc1eb7b2f95b" alt="Animal Theme" width="215" height="430">
 <img src="https://github.com/Noam0/MultiMemoryCardGame/assets/101128914/b11cc7b8-bbc8-4be8-a7d8-9e87ae7b0c2e" alt="Comics Theme" width="215" height="430">
