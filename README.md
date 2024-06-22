@@ -1,4 +1,4 @@
-<h2>Memory Card Game: Animal & Comics Editions <img src="https://github.com/Noam0/MultiMemoryCardGame/assets/your_icon" alt="icon" width="50" height="50"></h2>
+<h2>Memory Card Game: Animal & Comics Editions </h2>
 
 <p><strong>Overview</strong></p>
 <p>The Memory Card Game project consists of two separate applications, one themed around Animals and the other around Comics. Each app is designed to enhance memory skills by challenging players to find matching pairs of cards. This project was developed as part of an Android development course, demonstrating the use of a shared codebase to create distinct apps.</p>
